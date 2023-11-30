@@ -7,36 +7,7 @@
 </head>
 <body>
    
-                <style>
-                    .parentdiv {
-                        background-color: aqua;
-                        width: 60%;
-                        height: 400px;
-                        margin: auto;
-                        flex-wrap: unset;
-            
-                    }
-            
-                    .childone {
-                        background-color: blue;
-                        width: 40%;
-                        height: 200px;
-                        padding: 10px;
-                        float: left;
-                        margin: auto;
-            
-                    }
-            
-                    .childtwo {
-                        background-color: brown;
-                        width: 40%;
-                        height: 200px;
-                        padding: 10px;
-                        float: right;
-                        margin: auto;
-                    }
-                </style>
-            
+                
             </head>
             <!--internal div-->
             <h1>my final exam.</h1>
@@ -52,9 +23,25 @@
                     </div>
                     <div class="row">
                         <div class=" bg-primary col">
-                            <h2>first image</h2>
-                            <h3>my photo</h3>
-                            <img src="IMG-20211222-WA0010_1.jpg" width="200px" height="150px" ABEESIGA FLORENCE>  
+                            <h1>Final exam</h1>
+    <img src="IMG-20211222-WA0010_1.jpg" id="myImage" width="100" height="150">
+    <input type="button" onclick="changeImage()" value="Change" />
+   
+
+
+    <script>
+        function changeImage() {
+            var image = document.getElementById('myImage');
+            if (image.src.match("colorbottel")) {
+                image.src = "hopeflorence.jpg";
+       
+ }
+            else {
+                image.src = "hopeflorence.jpg";
+            }
+        }
+    </script>
+
                         </div>
                         <div class="bg-secondary col">
                             <h2>My details</h2>
@@ -67,10 +54,16 @@
                             </ul>
                             
                         </div>
-           <div class="link"
-          <li> Website for ladiescollection.rf.gd</li>
-           <li> for hopeismy.rf.gd</li>
+        
 
+           <a href="Website for ladiescollection.rf.gd">Website for ladiescollection.rf.gd </a>
+           <h6>presonal</h6>
+           <a href="Website for hopeismy.rf.gd">Website for hopeismy.rf.gd</a>
+           <h6>organistion</h6>
+           <a href=" https://abeesigaflorence.github.io/personal-websit/"> https://abeesigaflorence.github.io/personal-websit/</a>
+           <h6>presonal</h6>
+           <a href="https: https://abeesigaflorence.github.io/organisation-web-site/"> https://abeesigaflorence.github.io/organisation-web-site/</a>
+           organistion
            </div>
             </div>
         </div>
